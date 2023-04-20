@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "sudo apt update; sudo apt install neofetch; neofetch"
+          command: "sudo apt update; sudo apt install htop; htop"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
