@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "sudo apt install speedtest-cli; speetest"
+          command: "sudo apt install speedtest-clil; speedtest-cli"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
