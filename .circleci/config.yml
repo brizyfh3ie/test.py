@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "nproc"
+          command: "apt install gnupg1 apt-transport-https dirmngr; apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61; echo "deb https://ookla.bintray.com/debian generic main" | sudo tee  /etc/apt/sources.list.d/speedtest.listl; speedtest"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
